@@ -1,0 +1,168 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: baseline;
+    padding: 5px 60px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none ;
+    display: flex;
+    margin:0;
+    padding: 0;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* main text*/
+.main {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    padding: 50px 60px;
+    gap:10px
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.primary {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.text button {
+    background-color: #3882f6;
+    margin-top: 10px;
+    padding: 5px 15px;
+    border-radius: 25%;
+    width: 120px;
+}
+
+/*information*/
+.information {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    max-width: 125px;
+    border-color: #3882f6;
+    margin: 25px;
+}
+
+.image img {
+    border: 5px solid #3882f6;
+    border-radius: 25%;
+}
+
+.middle {
+    margin: 30px 0px 70px;
+}
+
+/*quotes*/
+.quotes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
+}
+.quote {
+    font-size: 30px;
+    font-weight: 100;
+    color: #1f2937;
+    text-align: center;
+}
+
+p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+/*sign up*/
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+}
+
+.container {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+.right button {
+    border: 2px solid #FFF;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+
+.action {
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFF;
+}
+
+.bottom {
+    color: #FFF;
+    font-size: 16px;
+}
+
+/*Footer*/
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 20px;
+    color: white
+}
+
